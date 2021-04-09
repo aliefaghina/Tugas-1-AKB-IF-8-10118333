@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFF"
+    tools:context=".Register">
+
+    <ImageView
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:src="@drawable/logoa"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txtregis"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="230dp"
+        android:textSize="20sp"
+        android:typeface="normal"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="265dp"
+        android:layout_marginLeft="18dp"
+        android:layout_marginRight="18dp"
+        android:textColorHint="@color/black"
+        android:hint="Nama"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="310dp"
+        android:inputType="textPassword"
+        android:textColorHint="@color/black"
+        android:hint="Email"
+        android:layout_marginLeft="18dp"
+        android:layout_marginRight="18dp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="355dp"
+        android:inputType="textPassword"
+        android:textColorHint="@color/black"
+        android:hint="Password"
+        android:layout_marginLeft="18dp"
+        android:layout_marginRight="18dp"
+        />
+
+    //07-04-21,10118333,AliefaGhinaSyahidah,IF8
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="400dp"
+        android:inputType="textPassword"
+        android:textColorHint="@color/black"
+        android:hint="Re-Password"
+        android:layout_marginLeft="18dp"
+        android:layout_marginRight="18dp"
+        />
+
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="450dp"
+            android:layout_marginLeft="115dp"
+            android:text="@string/txtback"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="450dp"
+            android:layout_marginLeft="220dp"
+            android:text="@string/txtregis"
+            />
+</RelativeLayout>
+
